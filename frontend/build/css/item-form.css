@@ -1,0 +1,18 @@
+.bg img {
+  min-width: 100%;
+  min-height: auto;
+  max-width: 100%;
+  max-height: auto;
+}
+
+footer {
+  background-color: #474e5d;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}

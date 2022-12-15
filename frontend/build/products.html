@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Product Listings - Coder Candle Co.</title>
+  <link href="css/products.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<main>
+
+  <!--Nav Bar-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <img src="codercandle.png" class="logo" alt="coder candle" width="100" height="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="products.html">Shop</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="products.html">Wish List</a>                                              </li>
+              <li><a class="dropdown-item" href="item-form.html">Add New Item</a> </li>
+
+              <li>
+                <a class="dropdown-item" href="contact-us.html">Have a scent request? Send us a message!</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header image -->
+  <div class="bg">
+    <img class="bg" src="Background.jpeg" alt="...">
+  </div>
+
+  <!--This is the Heading-->
+  <div class="about-section">
+    <h1>Coder Candle Co.</h1>
+    <p>We are passionate coders with a love for candles.</p>
+  </div>
+
+  <!--Product Listing/Images-->
+  <center>
+
+    <div class="container">
+      <h1 class="my-5">Items List</h1>
+      <div id="list-items"></div>
+
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://images.unsplash.com/photo-1602523961358-f9f03dd557db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="..." width="285" height="400">
+      <div class="card-body">
+        <p class="card-text"><h5>It Makes No Scents</h5><br>$14.99<br>This is our only scent free candle, specifically made for those who are allergic or sensative to fragrances.</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://images.unsplash.com/photo-1604249180474-3ebaf8747373?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGVhcnRoeSUyMGNhbmRsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..." height="450">
+      <div class="card-body">
+        <p class="card-text"><h5>HELLO WORLD!</h5><br>$19.99<br>Enjoy the earthy pine tree scents.</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1608181831843-e7e72430f993?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHwyNjcxMTY3OXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="..." width="285" height="350">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>Why Isn't This Working? Why Is This Working?</h5> <br>Our Only Candle Bundle!<br>
+        $29.99<br> Enjoy the fresh ground coffee scent on one and the crisp champagne scent on the other! </p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1524004994188-c256159ae908?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MjMyODM4NzJ8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="..." height="405">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>CryptoBros</h5><br> $14.99 <br>Great for gifting to your Crypto obsessed friends or family members! English Ivy scent</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1603006905003-be475563bc59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="card-img-top" alt="Git It!">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>Git It!</h5> <br>14.99 <br>Git It will sure put you in the mood to Get It with its clean cotton scent. Our best seller!</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1607713328148-0e55aa0c0772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhbmRsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top problemchild" alt="...">
+      <div class="card-body problemchild">
+        <p class="card-text">
+        <h5>PWD Party Work Debug </h5><br> $14.99<br>This candle will sure to put you in PARTY mood with its Pina Colada scent </p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1532592068623-db1978e40df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>404 ERROR</h5><br> $19.99<br> This wonderful Eucalyptus scented candle will give you debugging 404 error powers!</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1585938517800-6dea260062cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3xNUVhOc2lSaDNFb3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>Javachips</h5><br> $14.99 <br>This is for the sweet tooth candle lovers, Chocolate Chip Cake Batter yum yum yum</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1618324395109-82adcad01043?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8VVVydk1LNzJmLXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>Wi-Fi Is Down</h5> <br>$19.99 <br>Whether your Wi-fi is really down or you are playing hooky at work you'll
+        be transformed to your happy place with this Tropical Paradise scent</p><button>Add To Cart</button>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1560159167-02c11d28e671?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8VVVydk1LNzJmLXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>BothEnds</h5> <br>$14.99<br> Front End and Back End we call it BothEnds here! Relax and chill with this
+        Fresh Linen scent</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem;">
+      <img
+              src="https://images.unsplash.com/photo-1610483296893-03b2c72625f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXxVVXJ2TUs3MmYtd3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">
+        <h5>Loops on Loops</h5> <br>$19.99 <br>Enjoy this Lemon and Lavender scented candles.</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+
+
+
+</main>
+
+<script src="js/itemsController.js"></script>
+<script src="js/index.html"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+</center>
+<!--This is the Footer-->
+<footer>
+  © 2022 Coder Candle Company, Inc. All Rights Reserved.
+</footer>
+
+</html>

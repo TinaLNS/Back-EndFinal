@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+footer {
+  background-color: #474e5d;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.card-body {
+  text-align: center;
+}
+.add-to-cart {
+  text-align: right;
+}
+
+background {
+  color: beige;
+}
+
+.problemchild {
+  width: 18rem;
+}
+.card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+.about-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.bg img {
+  min-width: 100%;
+  min-height: auto;
+  max-width: 100%;
+  max-height: auto;
+}
+.card {
+  display: inline-block;
+  align-content: stretch;
+  justify-content: center;
+  text-align: center;
+  vertical-align: top;
+
+}
+h5 {
+  font-weight: bold;
+}
+

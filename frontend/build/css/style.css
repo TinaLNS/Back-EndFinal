@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+body {
+ background-image: url("https://unsplash.com/photos/ZvvYXz72yZI");
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: auto;
+
+}
+
+.bg img {
+  min-width: 100%;
+  min-height: auto;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.logo {
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.carousel {
+  Width: 100vw;
+  Height: 100vh;
+  Position: relative;
+  }
+
+
+.carousel .item img {
+   left: -9999px;  /*important */
+   right: -9999px;  /*important */
+   margin: 0 auto;  /*important */
+   max-width: none;  /*important */
+   min-width: 100%;
+   position: absolute;
+}
+
+.carousel-button {
+  Position: absolute;
+  Background: none;
+  Border: none;
+  Font-size: 4rem;
+  Top: 80%;
+  Transform: translateY(-50%);
+  Color: rgba(225, 225, 225, .5);
+  Cursor: pointer;
+  Border-radius: .25rem;
+  Padding: 0.5rem;
+  Background-color: rgba(0, 0, 0, .1);
+  }
+
+.carousel-button.prev {
+  Left: 1rem;
+}
+
+.carousel-button.next {
+  Right: 1rem;
+}
+
+
+footer {
+  background-color: #474e5d;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
